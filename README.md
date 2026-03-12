@@ -1,6 +1,10 @@
 # Finance-in-Python
+Description:  
+
+
 ## Project Structure
-project-root/
+
+MV-P/
 │
 ├── data/
 │   ├── __init__.py
@@ -21,6 +25,7 @@ project-root/
 │   └── time_value.py
 │
 ├── fundamental_component/
+│   └── (modules for fundamental factors)
 │
 ├── ml/
 │   ├── __init__.py
@@ -50,7 +55,7 @@ project-root/
 │
 ├── utils/
 │   ├── __init__.py
-│   ├── logger.py
+│   └── logger.py
 │
-└── config.py
+├── config.py
 └── run.py
